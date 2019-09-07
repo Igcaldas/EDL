@@ -2,8 +2,6 @@
 
 ### **Origem**
 
-The language grew out of a personal project begun in 2006 by Mozilla employee Graydon Hoare,[16] who stated that the project was possibly named after the rust family of fungi.[38] Mozilla began sponsoring the project in 2009[16] and announced it in 2010.[39][40] The same year, work shifted from the initial compiler (written in OCaml) to the self-hosting compiler written in Rust.[41] Named rustc, it successfully compiled itself in 2011.[42] rustc uses LLVM as its back end.
-
 A linguagem cresceu em 2006, vinda de um projeto pessoal de um funcionário da Mozilla , Graydon Hoare. Mozilla começou a patrocinar o projeto em 2009 e o anunciou em 2010.
 Rust é uma linguagem de programação que foi desenvolvida pela Mozilla Corporation. Foi feita com a intenção de ser uma linguagem utilizada por sistemas  altamente concorrentes e seguros. Projetada para ser segura , concorrente e prática.
 
