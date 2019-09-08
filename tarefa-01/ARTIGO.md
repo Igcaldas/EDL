@@ -36,23 +36,21 @@ Em rust, podemos definir um tipo de dados como:
 * Signed: que guarda valor negativo ou positivo
 
 * Unsigned: guarda apenas valroes positivos 
-
+_________________________________________________
 ![uni](https://user-images.githubusercontent.com/7257385/64481049-9f5f9e00-d1aa-11e9-95ef-5e9c68935169.jpg)
-
+_________________________________________________
 
 ![Hello World](https://user-images.githubusercontent.com/7257385/64479753-9b735200-d191-11e9-92de-010047fe0c3f.jpg)
 
-
+_________________________________________________
 ![variaveis](https://user-images.githubusercontent.com/7257385/64480149-d1680480-d198-11e9-9e6d-8da53e67e24c.jpg)
-
+_________________________________________________
 Definindo string
 String Literal(&str)
 String Object(String)
+![fatorial](https://user-images.githubusercontent.com/7257385/64482023-ae9d1680-d1bf-11e9-8ecc-bf8a7510ba38.jpg)
 
-![string c](https://user-images.githubusercontent.com/7257385/64481834-7b588880-d1bb-11e9-91f4-11e4a3977e3e.jpg)
-
-
-
+_________________________________________________
 
 
 ![fatorial](https://user-images.githubusercontent.com/7257385/64481261-e5b6fc00-d1ae-11e9-89af-3280d7ba4bc0.jpg)
