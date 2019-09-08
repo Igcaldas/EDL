@@ -20,7 +20,7 @@ Seu design habilita a criação de programas que possuem alta performance e cont
 Rust realiza a maioria das medidas de segurança e decisões de controle de memória em tempo de compilação, fazendo com que a performance de execução não seja afetada. Isso é útil em diversos casos que outras linguagens não são boas: programas com requisitos de espaço e tempo previsíveis, inseridas em outras linguagens, e escrever código baixo-nível, como drivers de dispositivos e sistemas operacionais.
 Rust gerencia memória e recursos automaticamente, sem necessitar de um coletor de lixo.
 
-## ***Exemplos de cógidos***
+## **Exemplos de cógidos**
 Em rust, podemos definir um tipo de dados como:
 * Signed: que guarda valor negativo ou positivo
 
@@ -56,10 +56,23 @@ _________________________________________________
 |Funções de alta ordem (closures)|Alta Performance( mais lenta que as linguagens compiladas)|
 |Polimorfismo, combinando interfaces parecidas com java e classes parecidas com haskell	|Conceitos de Orientação a objeto|
 | Erro tem dois tipos ( recuperável e não recuperável )| Tratamento de exceção |
-| Dinâmica |Dinâmica |
+|Tipagem forte e dinâmica |Tipagem forte e dinâmica |
+
+### *Exemplos de tipagem*
+| Rust | Java |
+| --- | --- |
+|![tipagem](https://user-images.githubusercontent.com/7257385/64494139-70573400-d25f-11e9-87f4-3bd781acd787.jpg) |![tipagem](https://user-images.githubusercontent.com/7257385/64494139-70573400-d25f-11e9-87f4-3bd781acd787.jpg) |
 
 ### ***Código representativo***
 | Rust | Java |
 | --- | --- |
 |![trait 2](https://user-images.githubusercontent.com/7257385/64493361-9b3c8a80-d255-11e9-9dcc-c09743e50b7e.jpg)|![java interface](https://user-images.githubusercontent.com/7257385/64493360-9972c700-d255-11e9-9bdb-5c5b2c862e4a.jpg)|
+
+
+### ***Biblioteca***
+https://doc.rust-lang.org/book/
+
+https://en.wikipedia.org/wiki/Rust_(programming_language)
+
+https://www.tutorialspoint.com/rust/index.htm
 
