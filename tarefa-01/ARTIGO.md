@@ -44,6 +44,8 @@ _________________________________________________
 
 _________________________________________________
 ![variaveis](https://user-images.githubusercontent.com/7257385/64480149-d1680480-d198-11e9-9e6d-8da53e67e24c.jpg)
+
+*Em rust , as variáveis são imutáveis por padrão*
 _________________________________________________
 Definindo string
 String Literal(&str) / String Object(String)
@@ -53,8 +55,6 @@ _________________________________________________
 
 ![fatorial](https://user-images.githubusercontent.com/7257385/64482023-ae9d1680-d1bf-11e9-8ecc-bf8a7510ba38.jpg)
 
-
-*Em rust , as variáveis são imutáveis por padrão*
 
 ### ***Avaliação comparativa***
 Ownership
