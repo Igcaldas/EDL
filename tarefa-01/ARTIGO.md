@@ -23,18 +23,16 @@ Rust gerencia memória e recursos automaticamente, sem necessitar de um coletor 
 ## **Exemplos de cógidos**
 Em rust, podemos definir um tipo de dados como:
 * Signed: que guarda valor negativo ou positivo
-
 * Unsigned: guarda apenas valroes positivos 
-_________________________________________________
+
 ![uni](https://user-images.githubusercontent.com/7257385/64481049-9f5f9e00-d1aa-11e9-95ef-5e9c68935169.jpg)
 _________________________________________________
 
 ![Hello World](https://user-images.githubusercontent.com/7257385/64479753-9b735200-d191-11e9-92de-010047fe0c3f.jpg)
-
 _________________________________________________
-![variaveis](https://user-images.githubusercontent.com/7257385/64480149-d1680480-d198-11e9-9e6d-8da53e67e24c.jpg)
-
 *Em rust , as variáveis são imutáveis por padrão*
+
+![variaveis](https://user-images.githubusercontent.com/7257385/64480149-d1680480-d198-11e9-9e6d-8da53e67e24c.jpg)
 _________________________________________________
 Definindo string
 ![string c](https://user-images.githubusercontent.com/7257385/64482030-ed32d100-d1bf-11e9-857e-3afcca315349.jpg)
