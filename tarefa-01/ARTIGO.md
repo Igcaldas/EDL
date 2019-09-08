@@ -46,14 +46,12 @@ _________________________________________________
 ![variaveis](https://user-images.githubusercontent.com/7257385/64480149-d1680480-d198-11e9-9e6d-8da53e67e24c.jpg)
 _________________________________________________
 Definindo string
-String Literal(&str)
-String Object(String)
-![fatorial](https://user-images.githubusercontent.com/7257385/64482023-ae9d1680-d1bf-11e9-8ecc-bf8a7510ba38.jpg)
+String Literal(&str) / String Object(String)
+![string c](https://user-images.githubusercontent.com/7257385/64482030-ed32d100-d1bf-11e9-857e-3afcca315349.jpg)
 
 _________________________________________________
 
-
-![fatorial](https://user-images.githubusercontent.com/7257385/64481261-e5b6fc00-d1ae-11e9-89af-3280d7ba4bc0.jpg)
+![fatorial](https://user-images.githubusercontent.com/7257385/64482023-ae9d1680-d1bf-11e9-8ecc-bf8a7510ba38.jpg)
 
 
 *Em rust , as variáveis são imutáveis por padrão*
