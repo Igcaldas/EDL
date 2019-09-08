@@ -20,17 +20,6 @@ Seu design habilita a criação de programas que possuem alta performance e cont
 Rust realiza a maioria das medidas de segurança e decisões de controle de memória em tempo de compilação, fazendo com que a performance de execução não seja afetada. Isso é útil em diversos casos que outras linguagens não são boas: programas com requisitos de espaço e tempo previsíveis, inseridas em outras linguagens, e escrever código baixo-nível, como drivers de dispositivos e sistemas operacionais.
 Rust gerencia memória e recursos automaticamente, sem necessitar de um coletor de lixo.
 
-* Segurança sem coletor de lixo (linguagens como Java, GO).
-* Concorrência sem disputa de dados.
-* Abstração sem overhead.
-* Multiparadigma (orientada a objetos, estruturada, imperativa compilada, concorrente, funcional)
-*	Pattern matching
-*	Task-based concurrency. Lightweight tasks can run in parallel without sharing any memory 
-*	Funções de alta ordem (closures)
-*	Polimorfismo, combinando interfaces parecidas com java e classes parecidas com haskell
-*	Generics
-*	Sem 'buffer overflow'
-
 ## ***Exemplos de cógidos***
 Em rust, podemos definir um tipo de dados como:
 * Signed: que guarda valor negativo ou positivo
@@ -58,8 +47,19 @@ _________________________________________________
 
 
 ### ***Avaliação comparativa***
-Ownership
-Rust has an ownership system where all values have a unique owner, where the scope of the value is the same as the scope of the owner.
-Values can be passed by immutable reference using &T, by mutable reference using &mut T or by value using T. At all times, there can either be multiple immutable references or one mutable reference. The Rust compiler enforces these rules at compile time and also checks that all references are valid.
+| Rust | Java | 
+| --- | --- |
+| Segurança sem coletor de lixo (linguagens como Java, GO)|Coletor de lixo |
+| Multiparadigma | Multiparadigma |
+|Pattern matching |	Interpretada |
+|Multithreaded| Multithreaded |
+|Funções de alta ordem (closures)|Alta Performance( mais lenta que as linguagens compiladas)|
+|Polimorfismo, combinando interfaces parecidas com java e classes parecidas com haskell	|Conceitos de Orientação a objeto|
+| Erro tem dois tipos ( recuperável e não recuperável )| Tratamento de exceção |
+| Dinâmica |Dinâmica |
 
-### ***Códigos representativos***
+### ***Código representativo***
+| Rust | Java |
+| --- | --- |
+|![trait 2](https://user-images.githubusercontent.com/7257385/64493361-9b3c8a80-d255-11e9-9dcc-c09743e50b7e.jpg)|![java interface](https://user-images.githubusercontent.com/7257385/64493360-9972c700-d255-11e9-9bdb-5c5b2c862e4a.jpg)|
+
