@@ -59,13 +59,12 @@ _________________________________________________
 ### *Exemplos de tipagem*
 | Rust | Java |
 | --- | --- |
-|![tipagem](https://user-images.githubusercontent.com/7257385/64494139-70573400-d25f-11e9-87f4-3bd781acd787.jpg) |
-![tipagem java](https://user-images.githubusercontent.com/7257385/64494500-1e64dd00-d264-11e9-9b06-2c6fc79b1e7b.jpg) |
+|![tipagem](https://user-images.githubusercontent.com/7257385/64494139-70573400-d25f-11e9-87f4-3bd781acd787.jpg) |![tipagem java](https://user-images.githubusercontent.com/7257385/64494500-1e64dd00-d264-11e9-9b06-2c6fc79b1e7b.jpg) |
 
 ### ***Código representativo***
 | Rust | Java |
 | --- | --- |
-|![trait 2](https://user-images.githubusercontent.com/7257385/64493361-9b3c8a80-d255-11e9-9dcc-c09743e50b7e.jpg)|![java interface](https://user-images.githubusercontent.com/7257385/64493360-9972c700-d255-11e9-9bdb-5c5b2c862e4a.jpg)|
+|![trait 2](https://user-images.githubusercontent.com/7257385/64493361-9b3c8a80-d255-11e9-9dcc-c09743e50b7e.jpg)|![java interface](https://user-images.githubusercontent.com/7257385/64494517-671c9600-d264-11e9-8d84-0c8d63bfbc71.jpg)|
 
 
 ### ***Biblioteca***
