@@ -5,9 +5,13 @@
 A linguagem cresceu em 2006, vinda de um projeto pessoal de um funcionário da Mozilla , Graydon Hoare. Mozilla começou a patrocinar o projeto em 2009 e o anunciou em 2010.
 Rust é uma linguagem de programação que foi desenvolvida pela Mozilla Corporation. Foi feita com a intenção de ser uma linguagem utilizada por sistemas  altamente concorrentes e seguros. Projetada para ser segura , concorrente e prática.
 
-**Influências**
 
-Alef C#, C++, Cyclone, Erlang, Haskell, Limbo, Newsqueak, OCaml, Scheme, Standard ML, Swift
+
+**Influências**
+ Alef C#, C++, Cyclone, Erlang, Haskell, Limbo, Newsqueak, OCaml, Scheme, Standard ML, Swift
+
+![rust histo](https://user-images.githubusercontent.com/7257385/64481538-b1920a00-d1b3-11e9-88a5-2d358c1e050a.jpg)
+
 
 ### **Classificação**
 
