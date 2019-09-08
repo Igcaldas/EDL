@@ -47,9 +47,12 @@ Em rust, podemos definir um tipo de dados como:
 
 Definindo string
 String Literal(&str)
-
-
 String Object(String)
+
+![string c](https://user-images.githubusercontent.com/7257385/64481834-7b588880-d1bb-11e9-91f4-11e4a3977e3e.jpg)
+
+
+
 
 
 ![fatorial](https://user-images.githubusercontent.com/7257385/64481261-e5b6fc00-d1ae-11e9-89af-3280d7ba4bc0.jpg)
