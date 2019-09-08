@@ -48,8 +48,9 @@ _________________________________________________
 *Em rust , as variáveis são imutáveis por padrão*
 _________________________________________________
 Definindo string
-String Literal(&str) / String Object(String)
 ![string c](https://user-images.githubusercontent.com/7257385/64482030-ed32d100-d1bf-11e9-857e-3afcca315349.jpg)
+
+*String Literal(&str) / String Object(String)*
 
 _________________________________________________
 
