@@ -74,20 +74,8 @@ Cada valor em Rust tem uma variável que é chamada de *owner* do valor. Todo ti
 - Cada dado só pode ter um *owner* de uma vez
 - Duas variáveis não podem apontar para o mesmo espaço de memória
 
-fn main(){
-   let v = vec![1,2,3]; 
-   // vector v owns the object in heap
+![owner](https://user-images.githubusercontent.com/7257385/64497780-46b20300-d287-11e9-8f38-7e9979636e39.jpg)
 
-   //only a single variable owns the heap memory at any given time
-   let v2 = v; 
-   // here two variables owns heap value,
-   //two pointers to the same content is not allowed in rust
-
-   //Rust is very smart in terms of memory access ,so it detects a race condition
-   //as two variables point to same heap
-
-   println!("{:?}",v);
-}
 
 O código acima apresenta um erro pois o valor de v foi passado para v2, logo não podemos acessá-lo novamente até este retomar seu *owner*
 
