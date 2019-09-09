@@ -67,7 +67,7 @@ _________________________________________________
 |![trait 2](https://user-images.githubusercontent.com/7257385/64493361-9b3c8a80-d255-11e9-9dcc-c09743e50b7e.jpg)|![java interface](https://user-images.githubusercontent.com/7257385/64494517-671c9600-d264-11e9-8d84-0c8d63bfbc71.jpg)|
 
 
-### ***Biblioteca***
+### ***Bibliografia***
 https://doc.rust-lang.org/book/
 
 https://en.wikipedia.org/wiki/Rust_(programming_language)
