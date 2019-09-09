@@ -62,6 +62,35 @@ _________________________________________________
 |![tipagem](https://user-images.githubusercontent.com/7257385/64494139-70573400-d25f-11e9-87f4-3bd781acd787.jpg) |![tipagem java](https://user-images.githubusercontent.com/7257385/64494500-1e64dd00-d264-11e9-9b06-2c6fc79b1e7b.jpg) |
 
 ### ***Código representativo***
+## **Ownership**
+A memória em Rust pode ser alocada em Stack(pilha) ou na Heap.
+
+Stack - Segue a ordem de último a entrar e primeiro a sair (LIFO). O tamanho dos dados guardados são sabidos no tempo de compilação. Por exemplo: i32 vai para stack , o seu tamanho é conhecido no tempo de compiação. Assim como todos os tipos escalares de dados.
+Uma string é guardada no tempo de execução pois não se sabe o tamanho.
+
+Heap - Guarda os dados cujo tamanho não é conhecido no tempo de compilação. É usado para guardar dados dinâmicos. Basicamente é onde se guarda valores que podem mudar durante o tempo de vida do programa.
+
+Cada valor em Rust tem uma variável que é chamada de *owner* do valor. Todo tipo de dado guardado em Rust tem um *owner* associado. Por exemplo: let age = 30. Age é o *owner* do valor 30.
+- Cada dado só pode ter um *owner* de uma vez
+- Duas variáveis não podem apontar para o mesmo espaço de memória
+
+fn main(){
+   let v = vec![1,2,3]; 
+   // vector v owns the object in heap
+
+   //only a single variable owns the heap memory at any given time
+   let v2 = v; 
+   // here two variables owns heap value,
+   //two pointers to the same content is not allowed in rust
+
+   //Rust is very smart in terms of memory access ,so it detects a race condition
+   //as two variables point to same heap
+
+   println!("{:?}",v);
+}
+
+O código acima apresenta um erro pois o valor de v foi passado para v2, logo não podemos acessá-lo novamente até este retomar seu *owner*
+
 ## **Borrowing**
 O sistems de borrowing de Rust existe para que seja possível utilizar dados sem tomar posse sobre eles,
 passando-os por referência é possível que se tenha uma ligação mas não o controle total de tal dado, resultando assim
