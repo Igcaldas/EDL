@@ -68,7 +68,9 @@ passando-os por referência é possível que se tenha uma ligação mas não o c
 na maior segurança tendo em vista que um objeto emprestado para que exista o objeto que emprestou deve existir,
 caso contrário, teremos um erro.
 
-|![Borrow 1](https://user-images.githubusercontent.com/7257385/64497377-f4231780-d283-11e9-88e8-0dd9a794d1ae.jpg) |![Borrow 1 1](https://user-images.githubusercontent.com/7257385/64497378-f4bbae00-d283-11e9-85cb-e5c31a853c5c.jpg) |
+![Borrow 1](https://user-images.githubusercontent.com/7257385/64497377-f4231780-d283-11e9-88e8-0dd9a794d1ae.jpg)
+![Borrow 1 1](https://user-images.githubusercontent.com/7257385/64497378-f4bbae00-d283-11e9-85cb-e5c31a853c5c.jpg)
+
 ## **Traits**
 Traits é muito parecido com o sistema de interfaces em java. Pode ser implementado em qualquer tipo de dado, inclusive dados já existentes como i64 (inteiro). Tipos diferentes de data podem compartilhar o mesmo comportamento se nós chamarmos o mesmo método para esses tipos.
 
