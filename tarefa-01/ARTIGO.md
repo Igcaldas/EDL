@@ -62,6 +62,17 @@ _________________________________________________
 |![tipagem](https://user-images.githubusercontent.com/7257385/64494139-70573400-d25f-11e9-87f4-3bd781acd787.jpg) |![tipagem java](https://user-images.githubusercontent.com/7257385/64494500-1e64dd00-d264-11e9-9b06-2c6fc79b1e7b.jpg) |
 
 ### ***Código representativo***
+## **Borrowing**
+O sistems de borrowing de Rust existe para que seja possível utilizar dados sem tomar posse sobre eles,
+passando-os por referência é possível que se tenha uma ligação mas não o controle total de tal dado, resultando assim
+na maior segurança tendo em vista que um objeto emprestado para que exista o objeto que emprestou deve existir,
+caso contrário, teremos um erro.
+
+|![Borrow 1](https://user-images.githubusercontent.com/7257385/64497377-f4231780-d283-11e9-88e8-0dd9a794d1ae.jpg) |![Borrow 1 1](https://user-images.githubusercontent.com/7257385/64497378-f4bbae00-d283-11e9-85cb-e5c31a853c5c.jpg) |
+## **Traits**
+Traits é muito parecido com o sistema de interfaces em java. Pode ser implementado em qualquer tipo de dado, inclusive dados já existentes como i64 (inteiro). Tipos diferentes de data podem compartilhar o mesmo comportamento se nós chamarmos o mesmo método para esses tipos.
+
+
 | Rust | Java |
 | --- | --- |
 |![trait 2](https://user-images.githubusercontent.com/7257385/64493361-9b3c8a80-d255-11e9-9dcc-c09743e50b7e.jpg)|![java interface](https://user-images.githubusercontent.com/7257385/64494517-671c9600-d264-11e9-8d84-0c8d63bfbc71.jpg)|
